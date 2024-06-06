@@ -1,0 +1,33 @@
+.location {
+    min-height:640px ;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .location h2 {
+    width: 100%;
+    height: 100%;
+
+    font-size: 72px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 600;  
+    color: darkred;
+    text-align: center;
+  }
+
+ 
+  .locations{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: "Jaini Purva", system-ui;
+    color: darkred;
+  }
+
+  .locations a:hover{
+    color: burlywood;
+  }

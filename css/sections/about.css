@@ -1,0 +1,49 @@
+.about{
+    display: flex;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+}
+
+.about-image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-image div{
+    padding: 32px 64px;
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.about-pizzaimage img{
+    padding: 20px 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.about-content{
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content h3{
+    color: darkred;
+    font-size: 64px;
+    font-family: "Jaini Purva", system-ui;
+}

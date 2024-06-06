@@ -1,0 +1,38 @@
+.about-pizza{
+    width: 100%;
+    min-height: 640px;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url("../../assets/pizza-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 48px;
+}
+
+.about-pizza-title{
+    font-size: 56px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-weight: 600;
+    line-height: 78px;
+    color:  red;
+    text-align: center;
+}
+
+.about-pizza p{
+    margin-top: 20px;
+    text-align: center;
+    width: 720px;
+    font-family: "Jaini Purva", system-ui;
+
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 200;
+}

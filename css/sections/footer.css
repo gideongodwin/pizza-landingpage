@@ -1,0 +1,55 @@
+.footer {
+    width: 100%;
+    padding: 20px 40px;
+    background: burlywood;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+      flex-wrap: wrap;
+
+    gap: 20px;
+  
+    overflow: hidden;
+  }
+  
+  .footer ul {
+    list-style: none;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+  }
+  
+  
+  .footer__nav li {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jaini Purva", system-ui;
+    text-transform: uppercase;
+    color: darkred;
+  
+    cursor: pointer;
+  }
+  
+  .footer__social li {
+    width: 32px;
+    height: 32px;
+  
+    background-color:darkred;
+    border-radius: 100%;
+  }
+  
+  .footer__social li img {
+    width: 45%;
+    height: 45%;
+    object-fit: contain;
+  }
+
+.footer-2{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  gap: 20px;
+}

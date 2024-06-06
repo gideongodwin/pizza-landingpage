@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+/* other css file imports */
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/about-pizza.css");
+@import url("sections/variety.css");
+@import url("sections/location.css");
+@import url("sections/footer.css");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-title {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--playfair-display);
+
+  color: var(--secondary-color);
+
+  margin-top: 16px;
+}
+ 
+
+/* START: about us media queries */
+@media screen and (max-width: 1024px) {
+  .about{
+    flex-direction: column;
+  }
+
+  .about-image {
+    flex-direction: row;
+  }
+
+  .about-pizzaimage {
+    border-bottom: none;
+    border-right: 8px solid var(--color-creamson);
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .about-image {
+    flex-direction: column;
+  }
+
+  .about-pizzaimage {
+    border-bottom: 8px solid var(--color-creamson);
+    border-right: none;
+  }
+
+ 
+}
+
+@media screen and (max-width: 550px) {
+  .about-pizzaimage img {
+    width: 50%;
+    height: 160px;
+
+    object-fit: contain;
+  }
+
+  .about-image div {
+    padding: 32px;
+  }
+
+  .about-content {
+    padding: 32px;
+  }
+}
+/* END: about us media queries */
+ 
+ 
+@media screen and (max-width: 550px) {
+  .about-pizza {
+    padding: 64px 32px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .location {
+    padding: 64px 32px;
+  }
+
+  .location h2 {
+    font-size: 68px;
+    line-height: 100px;
+  }
+
+}
+ 
+@media screen and (max-width: 1024px) {
+  .variety-pizza {
+    flex-direction: column;
+  }
+
+  .variety-pizza {
+    flex-direction: column-reverse;
+  }
+
+  .variety-image {
+    width: 100%;
+    background-size: cover;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .variety-image img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .variety-content {
+    padding: 32px;
+  }
+}

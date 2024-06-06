@@ -1,0 +1,49 @@
+.variety{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.variety-pizza{
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    flex-direction: row;
+}
+
+.variety-content{
+  
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 64px;
+
+}
+
+.variety-content h3{
+  font-size: 72px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 600;
+    color:  darkred;
+    text-align: center;
+}
+
+
+.variety-image{
+    flex: 1;
+    position: relative;
+    padding: 32px 64px;
+    background-color: var(--color-white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+ 
+ 
+.variety-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
